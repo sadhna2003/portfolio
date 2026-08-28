@@ -4,24 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sadhna Singh</title>
-    <!-- Link CSS in the head -->
+    <title>Sadhna Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@600;700;800&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
-        @theme {
-        --color-primary: #da373d;
-      }
+        :root {
+    --bg-pink: #f1c7cd;
+    --card-pink: #e8a8b3;
+    --text-dark: #1f1f1f;
+    --text-muted: #666666;
+    --accent-red: #d96b7c;
+    --card-teal: #c2e2e0;
+
+    --font-inter: 'Inter', sans-serif;
+    --font-space-grotesk: 'Space Grotesk', sans-serif;
+}
+
+@theme inline {
+    --color-bg: var(--bg-pink);
+    --color-card: var(--card-pink);
+    --color-text-dark: var(--text-dark);
+    --color-text-muted: var(--text-muted);
+    --color-accent-red: var(--accent-red);
+    --color-card-teal: var(--card-teal);
+
+    --font-sans: var(--font-inter);
+    --font-heading: var(--font-space-grotesk);
+}
+.nav-links a {
+    @apply text-text-muted mr-4 text-[0.85rem] uppercase tracking-[2px] no-underline hover:text-text-dark transition-colors;
+}
+
+.btn-primary {
+   @apply px-5 py-2.5 bg-text-dark text-white no-underline text-[0.8rem] uppercase tracking-[1px] hover:bg-accent-red transition-colors;
+}
     </style>
-    <link rel="stylesheet" href="style.css">
+    <link rel=" stylesheet" href="style.css">
+
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
-<body>
-    <header></header>
-    <main>Helloo</main>
-    <footer></footer>
-    <!-- Link JS at the bottom of the body -->
-    <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
+<body class="bg-bg font-sans overflow-hidden">
+
+    <!-- 3D Canvas Background -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 z-50 w-full border-b border-card/40 bg-bg/80 backdrop-blur-md">
+
+        <div class="!mx-auto flex container lg:max-w-6xl items-center justify-between w-full px-6">
+
+            <!-- Logo -->
+            <div class="px-6 py-4 h-14 w-20 justify-center flex items-center">
+                <a href="#" class="block font-heading text-2xl font-extrabold tracking-tight text-text-dark">
+                    SADHNA<span class="text-accent-red">.</span>
+                </a>
+            </div>
+            <!-- nav links -->
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href=""#skill">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+            </nav>
+            <!-- cta button -->
+            <a href="#contact" class="btn-primary">Contact</a>
+        </div>
+
+    </header>
+
+    <main class="content-wrapper min-h-screen">
+    </main>
+
+    <!-- JS Link -->
     <script src="script.js"></script>
 </body>
 
