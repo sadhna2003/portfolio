@@ -69,6 +69,7 @@ export const TechStack = ({ data }: SkillsData) => {
                     </div>
 
                     <ul className="flex h-full w-full flex-col items-start justify-normal gap-2 pr-3 font-body">
+                        <h3 className="font-display font-medium text-2xl tracking-wider col-span-2 sm:col-span-4 lg:col-span-8 text-white">{data.subtitle2}</h3>
                         {data.softskills.map((item: string, index: number) => {
                             return (
                                 <li key={index} className="font-medium inline-flex w-full items-center">
