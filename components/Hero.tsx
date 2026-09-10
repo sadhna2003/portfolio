@@ -21,7 +21,7 @@ export const Hero = ({ data }: Heroprop) => {
 
     return (
         <section className="bg-primary" id="home">
-            <div className="section-container h-screen">
+            <div className="section-container h-full">
                 <div className="grid grid-cols-3 gap-8 w-full h-full items-center">
                     <div className="flex flex-col justify-normal p-6 text-white gap-4 w-full h-full">
                         <p className="font-body font-medium text-lg tracking-wide ">{data.highlight}</p>
