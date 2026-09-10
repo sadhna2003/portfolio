@@ -29,7 +29,7 @@
     "skills": {
         "title": "Skills & Tech Stack",
         "subtitle": "What I work with",
-        "subtitle2":"Soft Skills",
+        "subtitle2": "Soft Skills",
         "softskills": [
             "Problem Solving",
             "Quick Learner",
@@ -196,5 +196,16 @@
                 "text": "Storybook"
             }
         ]
+    },
+    "education": {
+        "title": "Education",
+        "decorativeText": "Learn Build Grow",
+        "education": {
+            "degree": "Bachelor's of Technology in Computer Engineering",
+            "duration": "2021-2025",
+            "college": "Sliver Oak College of Engineering & Technology",
+            "cgpa": "9.92",
+            "description": "Built a strong foundation in software development, programming, databases, and computer engineering while developing a passion for creating web applications."
+        }
     }
 }
