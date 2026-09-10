@@ -207,5 +207,31 @@
             "cgpa": "9.92",
             "description": "Built a strong foundation in software development, programming, databases, and computer engineering while developing a passion for creating web applications."
         }
-    }
+    },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I’m always open to new opportunities, collaborations or just a friendly chat.",
+    "cta": {
+      "text": "Say Hello",
+      "link": "mailto:sadhna369.dev@gmail.com"
+    },
+   "socials": [
+  {
+    "icon": "/mail.svg",
+    "label": "Drop me an email",
+    "link": "mailto:sadhna369.dev@gmail.com"
+  },
+  {
+    "icon": "/linkedin.svg",
+    "label": "Connect with me",
+    "link": "https://linkedin.com/in/sadhna-singh-638184282"
+  },
+  {
+    "icon": "/github.svg",
+    "label": "Explore my GitHub",
+    "link": "https://github.com/sadhna2003"
+  }
+],
+    "decorativeText": "Let's connect"
+  }
 }
