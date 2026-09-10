@@ -6,6 +6,7 @@ import { Education } from "@/components/Education";
 import { Contact } from "@/components/Contact";
 import { Process } from "@/components/Process";
 import { Work } from "@/components/Work";
+import { Projects } from "@/components/Projects";
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
       <TechStack data={data.skills}/>
       <Education data={data.education}/>
       <Work data={data.experience}/>
+      <Projects data={data.projects}/>
       <Process data={data.process}/>
       <Contact data={data.contact}/>
     </>

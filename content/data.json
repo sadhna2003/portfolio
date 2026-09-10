@@ -289,5 +289,80 @@
             }
         ],
         "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
-    }
+    },
+     "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "AI-Powered Social Media Management Platform",
+        "techStack": [
+          "Next.js",
+          "Django",
+          "OpenAI",
+          "OpenRouter",
+          "TanStack Query",
+          "Postman"
+        ],
+        "description": "Developed dashboards, social media post and email integration workflows, and an AI chat module for content suggestions. Integrated frontend modules with backend APIs and tested API workflows using Postman."
+      },
+           {
+        "title": "Agent & Enrollment Management System",
+        "techStack": [
+          "Next.js",
+          "NestJS",
+          "PostgreSQL",
+          "TanStack Query",
+          "Tailwind CSS",
+          "shadcn/ui"
+        ],
+        "description": "Built agent and enrollment management workflows with responsive interfaces, backend APIs, forms, CRUD operations, validations, and role-based application workflows."
+      },
+      {
+        "title": "Nutritionist Meal Planning Platform",
+        "techStack": [
+          "Next.js",
+          "TanStack Query",
+          "Tailwind CSS",
+          "shadcn/ui"
+        ],
+        "description": "Developed recipes, meal plans, and customizable recipe bundles with theme and style customization, enabling nutritionists to create personalized meal plans for their clients."
+      },
+      {
+        "title": "E-commerce Websites",
+        "techStack": [
+          "Shopify",
+          "Shopify Hydrogen",
+          "Next.js",
+          "Tailwind CSS"
+        ],
+        "description": "Developed modern e-commerce experiences using Shopify and Shopify Hydrogen, building responsive storefronts and reusable UI components with Tailwind CSS."
+      },
+        {
+        "title": "Marketing Websites",
+        "techStack": [
+          "Next.js",
+          "Strapi",
+          "Tailwind CSS",
+          "shadcn/ui"
+        ],
+        "image":"/img/website.png",
+        "description": "Developed responsive marketing websites with reusable components and CMS-driven content using Strapi, Next.js, Tailwind CSS, and shadcn/ui."
+      },
+      {
+        "title": "Additional Client Projects",
+        "techStack": [
+          "React.js",
+          "Next.js",
+          "Vue.js",
+          "Nuxt.js",
+          "Node.js",
+          "NestJS",
+          "PostgreSQL",
+          "MongoDB",
+          "REST APIs"
+        ],
+        "description": "Contributed to 15+ client projects across AI, e-commerce, energy utilities, CMS, and business applications, working across frontend development, backend integration, APIs, databases, and application workflows."
+      }
+    ]
+  }
 }
