@@ -16,7 +16,7 @@ export type Contact = {
     decorativeText: string;
 };
 
-export const Contact = ({ data }: Contact) => {
+export const Contact = ({ data }: { data: Contact }) => {
     return (
         <section
             id="contact"
