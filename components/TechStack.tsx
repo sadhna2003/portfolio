@@ -10,12 +10,13 @@ export type Skills = {
     subtitle: string;
     items: SkillItem[];
     softskills: string[];
+    subtitle2: string;
 };
 
 export type SkillsData = {
     skills: Skills;
 };
-export const TechStack = ({ data }: SkillsData) => {
+export const TechStack = ({ data }: { data: Skills }) => {
     return (
         <section id="skills" className="bg-primary">
             <div className="section-container">
@@ -26,7 +27,7 @@ export const TechStack = ({ data }: SkillsData) => {
                     </div>
 
                     <div className="grid w-full col-span-2 grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8 pr-5 lg:border-r-2 border-border">
-                         <h3 className="font-display font-medium text-2xl tracking-wider col-span-2 sm:col-span-4 lg:col-span-8 text-white">{data.subtitle}</h3>
+                        <h3 className="font-display font-medium text-2xl tracking-wider col-span-2 sm:col-span-4 lg:col-span-8 text-white">{data.subtitle}</h3>
                         {data.items.map((item: any, index: number) => (
                             <div
                                 key={index}
@@ -45,7 +46,7 @@ export const TechStack = ({ data }: SkillsData) => {
                             >
                                 <div className="flex flex-col items-center justify-center gap-3">
                                     <div
-                                     title={item.text}
+                                        title={item.text}
                                         className="
                   flex
                   h-8

@@ -16,7 +16,7 @@ type Heroprop = {
 
 }
 
-export const Hero = ({ data }: Heroprop) => {
+export const Hero = ({data}:{data : Heroprop}) => {
     // console.log("props", data);
 
     return (

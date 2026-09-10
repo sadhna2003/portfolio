@@ -7,7 +7,7 @@ export type About = {
     location: string;
     highlight: string[];
 };
-export const About = ({ data }: About) => {
+export const About = ({data}:{ data : About}) => {
     return (
         <section id="about" className="bg-background">
             <div className="section-container">

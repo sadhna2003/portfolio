@@ -8,9 +8,11 @@ export type Education = {
         degree: string;
         duration: string;
         college: string;
+        cgpa: string;
+        description: string;
     };
 };
-export const Education = ({ data }: Education) => {
+export const Education = ({ data }: { data: Education }) => {
     return (
         <section id="education" className="bg-background">
             <div className="section-container">
