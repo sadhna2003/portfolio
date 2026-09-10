@@ -1,26 +1,67 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ================================
+     Portfolio Colors
+     ================================ */
+
+  --color-primary: #15302a;
+  --color-primary-dark: #0a201c;
+
+  --color-background: #eef1ec;
+  --color-white: #f9faf8;
+
+  --color-pink: #f2d4cd;
+  --color-peach: #efc0ae;
+  --color-yellow: #f4d35e;
+
+  --color-text: #15302a;
+  --color-text-muted: #526660;
+  --color-border: #a7b2b0;
+
+  /* ================================
+     Fonts
+     ================================ */
+  --font-display: var(--font-bebas);
+  --font-body: var(--font-dm-sans);
+  --font-hand: var(--font-caveat);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Colors available as Tailwind utilities */
+
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+
+  --color-background: var(--color-background);
+  --color-white: var(--color-white);
+
+  --color-pink: var(--color-pink);
+  --color-peach: var(--color-peach);
+  --color-yellow: var(--color-yellow);
+
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-border: var(--color-border);
+
+  /* Fonts available as Tailwind utilities */
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-hand: var(--font-hand);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ================================
+   Base
+   ================================ */
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
 }
