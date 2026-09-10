@@ -17,8 +17,6 @@ type Heroprop = {
 }
 
 export const Hero = ({data}:{data : Heroprop}) => {
-    // console.log("props", data);
-
     return (
         <section className="bg-primary" id="home">
             <div className="section-container h-full">
