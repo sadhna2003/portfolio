@@ -67,5 +67,5 @@ body {
 }
 
 .section-container {
-  @apply mx-auto container p-6 w-full max-w-6xl
+  @apply mx-auto container px-6 py-8 w-full max-w-6xl
 }

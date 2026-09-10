@@ -25,5 +25,175 @@
             "Frontend & Backend",
             "Clean & Scalable Code"
         ]
+    },
+    "skills": {
+        "title": "Skills & Tech Stack",
+        "subtitle": "What I work with",
+        "softskills": [
+            "Problem Solving",
+            "Quick Learner",
+            "Communication",
+            "Team Collaboration",
+            "Time Management",
+            "Adaptability",
+            "Attention to Detail",
+            "Critical Thinking",
+            "Punctuality",
+            "Continuous Learning"
+        ],
+        "items": [
+            {
+                "image": "https://cdn.simpleicons.org/javascript",
+                "text": "JavaScript"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/typescript",
+                "text": "TypeScript"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/react",
+                "text": "React.js"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/nextdotjs",
+                "text": "Next.js"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/vuedotjs",
+                "text": "Vue.js"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/nuxt",
+                "text": "Nuxt.js"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/angular",
+                "text": "Angular"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/astro",
+                "text": "Astro.js"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/html5",
+                "text": "HTML5"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/css",
+                "text": "CSS3"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/tailwindcss",
+                "text": "Tailwind CSS"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/shadcnui",
+                "text": "shadcn/ui"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/radixui",
+                "text": "Radix UI"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/nestjs",
+                "text": "NestJS"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/nodedotjs",
+                "text": "Node.js"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/express",
+                "text": "Express.js"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/redux",
+                "text": "Redux Toolkit"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/reactquery",
+                "text": "TanStack Query"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/postgresql",
+                "text": "PostgreSQL"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/mongodb",
+                "text": "MongoDB"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/graphql",
+                "text": "GraphQL"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/postman",
+                "text": "Postman"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/reacthookform",
+                "text": "React Hook Form"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/zod",
+                "text": "Zod"
+            },
+            {
+                "image": "/img/yup.png",
+                "text": "Yup"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/shopify",
+                "text": "Shopify"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/shopify",
+                "text": "Shopify Hydrogen"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/strapi",
+                "text": "Strapi"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/jest",
+                "text": "Jest"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/git",
+                "text": "Git"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/gitlab",
+                "text": "GitLab"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/docker",
+                "text": "Docker"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/vite",
+                "text": "Vite"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/webpack",
+                "text": "Webpack"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/netlify",
+                "text": "Netlify"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/cloudflare",
+                "text": "Cloudflare Pages"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/render",
+                "text": "Render"
+            },
+            {
+                "image": "https://cdn.simpleicons.org/storybook",
+                "text": "Storybook"
+            }
+        ]
     }
 }
