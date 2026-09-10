@@ -239,23 +239,23 @@
         "process": [
             {
                 "text": "Understand",
-                "description": "Ask questions, understand the requirements, and break down the work."
+                "description": "Understand requirements and break down the work."
             },
             {
                 "text": "Plan & Build",
-                "description": "Plan the approach and build clean, reusable, and scalable code."
+                "description": "Plan the approach and build clean, scalable solutions."
             },
             {
                 "text": "Review & Test",
-                "description": "Review the implementation and check quality, performance, and edge cases."
+                "description": "Review quality, performance, and edge cases."
             },
             {
                 "text": "Deploy",
-                "description": "Deploy the solution and make sure everything is production-ready."
+                "description": "Deploy reliable, production-ready solutions."
             },
             {
                 "text": "Improve",
-                "description": "Learn from feedback and continuously improve the product and code."
+                "description": "Learn from feedback and continuously improve."
             }
         ]
     }
