@@ -30,7 +30,7 @@ export const Hero = ({data}:{data : Heroprop}) => {
 
                     <div className="bg-pink h-full lg:h-9/10 rounded-full lg:rounded-none lg:rounded-b-full border border-pink p-0.5 flex flex-col items-center justify-end">
                         <img
-                            src={data.image.url}
+                            src={`${process.env.NODE_ENV === "production" ? "/portfolio" : ""}${data.image.url}`}
                             alt={data.image.alt}
                             className="w-full h-full lg:h-11/12 object-cover rounded-full lg:rounded-b-full mix-blend"
                         />

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 export type ContactSocial = {
     icon: string;
@@ -85,8 +86,8 @@ export const Contact = ({ data }: { data: Contact }) => {
                                     }
                                     className="group flex items-center gap-4 font-body text-sm text-text-muted transition-colors duration-300 hover:text-primary"
                                 >
-                                    <img
-                                        src={social.icon}
+                                    <Image
+                                        src={`${process.env.NODE_ENV === "production" ? "/portfolio" : ""}${social.icon}`}
                                         alt=""
                                         width={22}
                                         height={22}
@@ -100,7 +101,7 @@ export const Contact = ({ data }: { data: Contact }) => {
                             ))}
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 160 160">
-                            <rect width="160" height="160" fill="none" className=""/>
+                            <rect width="160" height="160" fill="none" className="" />
                             <g fill="none" stroke="currentColor" strokeWidth="5" strokeLinecap="round">
                                 <path d="M48 34 L61 11" />
                                 <path d="M67 40 L76 14" />
