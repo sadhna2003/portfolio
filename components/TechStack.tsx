@@ -17,7 +17,7 @@ export type SkillsData = {
 };
 export const TechStack = ({ data }: SkillsData) => {
     return (
-        <section id="skill" className="bg-primary">
+        <section id="skills" className="bg-primary">
             <div className="section-container">
                 <div className="grid grid-cols-4 gap-6 w-full h-full items-center justify-center">
                     <div className="text-white h-full font-display font-semibold tracking-wider border-r-2 border-border">
