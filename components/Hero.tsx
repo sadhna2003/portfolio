@@ -20,7 +20,7 @@ export const Hero = ({ data }: Heroprop) => {
     console.log("props", data);
 
     return (
-        <section className="bg-primary">
+        <section className="bg-primary" id="home">
             <div className="section-container h-screen">
                 <div className="grid grid-cols-3 gap-8 w-full h-full items-center">
                     <div className="flex flex-col justify-normal p-6 text-white gap-4 w-full h-full">

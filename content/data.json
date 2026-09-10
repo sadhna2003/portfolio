@@ -12,5 +12,18 @@
             "link": "#contact",
             "text": "Let's Connect"
         }
+    },
+    "about": {
+        "title": "Hello! My name is Sadhna",
+        "subtitle": "About me",
+        "description": "I'm a Full Stack Developer with 3+ years of experience building modern, responsive, and user-focused web applications. I work primarily with the MERN stack and have hands-on experience with React, Next.js, TypeScript, Node.js, Express.js, databases, REST APIs, authentication, and third-party integrations. I enjoy turning ideas into clean, maintainable, and scalable digital experiences while continuously learning and improving my craft.",
+        "location": "Ahmedabad, Gujarat, India",
+        "highlight": [
+            "3+ Years Experience",
+            "Full Stack Developer",
+            "MERN Stack",
+            "Frontend & Backend",
+            "Clean & Scalable Code"
+        ]
     }
 }
