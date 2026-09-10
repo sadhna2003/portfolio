@@ -279,16 +279,12 @@
                 ],
                 "description": "Worked across frontend and backend development, contributing to scalable web applications and end-to-end product features across multiple domains.",
                 "responsibilities": [
-                    "Developed end-to-end web application features using React.js, Next.js, TypeScript, Node.js, NestJS, Express.js, and REST APIs across AI, e-commerce, energy utilities, CMS, and business applications.",
-                    "Built reusable React components, dashboards, forms, role-based interfaces, and application workflows using Redux Toolkit, TanStack Query, Tailwind CSS, shadcn/ui, and Storybook.",
-                    "Designed and integrated REST APIs and backend services, handling authentication, validation, error handling, CRUD operations, asynchronous workflows, and frontend-backend data synchronization.",
-                    "Worked with MongoDB and PostgreSQL for database-driven applications, including data modeling, relationships, queries, and application-level data management.",
-                    "Improved application performance through caching, image optimization, API-call reduction, reusable components, and efficient data-fetching strategies.",
-                    "Integrated third-party APIs and services while handling loading states, API errors, authentication flows, and dynamic data updates.",
-                    "Contributed to testing, debugging, code reviews, technical discussions, estimation, and production issue resolution.",
-                    "Collaborated with designers, developers, QA engineers, clients, and product stakeholders in Agile/Scrum environments.",
-                    "Followed Git-based development workflows including branching, merge requests, code reviews, and collaborative development using GitLab.",
-                    "Continuously learned and adopted new technologies and development practices to improve code quality, maintainability, and delivery."
+                    "Developed end-to-end web application features using React.js, Next.js, TypeScript, Node.js, NestJS, Express.js, and REST APIs across 15+ projects in AI, e-commerce, energy utilities, CMS, and business domains.",
+                    "Built reusable React components, dashboards, forms, role-based interfaces, and application workflows using component-driven architecture, Redux Toolkit, TanStack Query, Tailwind CSS, shadcn/ui, and Storybook, while improving performance through caching, image optimization, and API-call reduction.",
+                    "Designed and integrated REST APIs and backend services, handling asynchronous workflows, dynamic data, authentication, validation, error handling, CRUD operations, and frontend-backend data synchronization.",
+                    "Worked with MongoDB and PostgreSQL for database-driven applications and contributed to API and data workflows involving structured relationships and application-level data management.",
+                    "Integrated third-party APIs and services, implementing authentication flows, dynamic data handling, loading states, error handling, and reliable frontend-backend communication.",
+                    "Participated in code reviews, debugging, technical discussions, estimation, testing, and Agile/Scrum delivery, collaborating with designers, developers, QA, clients, and product stakeholders."
                 ]
             }
         ],
