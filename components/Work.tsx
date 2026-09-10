@@ -5,8 +5,8 @@ export const Work = ({ data }: any) => {
     return (
         <section id="experience" className="bg-primary">
             <div className="section-container">
-                <div className="grid grid-cols-3 gap-6 w-full h-full items-center justify-center">
-                    <div className="text-white h-full font-display font-semibold tracking-wider border-r-2 border-border">
+                <div className="grid lg:grid-cols-3 gap-6 w-full h-full items-center justify-center">
+                    <div className="text-white h-full font-display font-semibold tracking-wider lg:border-r-2 border-border">
                         <h2 className="text-7xl">{data.title}</h2>
                         <div className="h-px w-1/3 p-px rounded-full container bg-white mt-4"></div>
                     </div>

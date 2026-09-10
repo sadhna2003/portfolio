@@ -23,17 +23,17 @@ export const Contact = ({ data }: Contact) => {
             className="bg-background"
         >
             <div className="section-container">
-                <div className="grid grid-cols-3 gap-6 w-full h-full items-center justify-center">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full h-full items-center justify-center">
 
                     {/* Title */}
-                    <div className="text-white h-full font-display font-semibold tracking-wider border-r-2 border-border">
+                    <div className="text-white h-full font-display font-semibold tracking-wider md:border-r-2 border-border">
                         <h2 className="text-7xl text-primary-dark">{data.title}</h2>
                         <div className="h-px bg-primary-dark w-1/3 p-px rounded-full container mt-4"></div>
                     </div>
 
 
                     {/* Description + CTA */}
-                    <div className="flex flex-col justify-between h-full border-border border-r">
+                    <div className="flex flex-col justify-between h-full border-border md:border-r">
                         <p className="max-w-xs font-body leading-relaxed text-text-muted">
                             {data.description}
                         </p>

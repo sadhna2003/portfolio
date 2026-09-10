@@ -5,13 +5,13 @@ export const Process = ({ data }: any) => {
     return (
         <section id="work-style" className="bg-primary">
             <div className="section-container">
-                <div className="grid grid-cols-3 gap-6 w-full h-full items-center justify-center">
-                    <div className="text-white h-full font-display font-semibold tracking-wider border-r-2 border-border">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-full h-full items-center justify-center">
+                    <div className="text-white h-full font-display font-semibold tracking-wider lg:border-r-2 border-border">
                         <h2 className="text-7xl">{data.title}</h2>
                         <div className="h-px w-1/3 p-px rounded-full container bg-white mt-4"></div>
                     </div>
 
-                    <div className="flex flex-row col-span-2 gap-3 justify-between items-center h-full w-full ">
+                    <div className="grid grid-cols-2 md:flex flex-row md:col-span-2 gap-3 justify-between items-center h-full w-full ">
                         {data.process.map((item: any, index: number) => (
                             <div className="flex flex-col items-center justify-start w-full h-full gap-3">
 

@@ -19,13 +19,13 @@ export const TechStack = ({ data }: SkillsData) => {
     return (
         <section id="skills" className="bg-primary">
             <div className="section-container">
-                <div className="grid grid-cols-4 gap-6 w-full h-full items-center justify-center">
-                    <div className="text-white h-full font-display font-semibold tracking-wider border-r-2 border-border">
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 w-full h-full items-center justify-center">
+                    <div className="text-white h-full font-display font-semibold tracking-wider lg:border-r-2 border-border">
                         <h2 className="text-7xl">{data.title}</h2>
                         <div className="h-px w-1/3 p-px rounded-full container bg-white mt-4"></div>
                     </div>
 
-                    <div className="grid w-full col-span-2 grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8 pr-5 border-r-2 border-border">
+                    <div className="grid w-full col-span-2 grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8 pr-5 lg:border-r-2 border-border">
                          <h3 className="font-display font-medium text-2xl tracking-wider col-span-2 sm:col-span-4 lg:col-span-8 text-white">{data.subtitle}</h3>
                         {data.items.map((item: any, index: number) => (
                             <div

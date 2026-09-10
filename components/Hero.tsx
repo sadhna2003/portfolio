@@ -22,7 +22,7 @@ export const Hero = ({ data }: Heroprop) => {
     return (
         <section className="bg-primary" id="home">
             <div className="section-container h-full">
-                <div className="grid grid-cols-3 gap-8 w-full h-full items-center">
+                <div className="grid lg:grid-cols-3 gap-8 w-full h-full items-center">
                     <div className="flex flex-col justify-normal p-6 text-white gap-4 w-full h-full">
                         <p className="font-body font-medium text-lg tracking-wide ">{data.highlight}</p>
                         <h1 className="text-9xl font-display font-bold">{data.title}</h1>
@@ -30,11 +30,11 @@ export const Hero = ({ data }: Heroprop) => {
                         <div className="h-px w-1/5 p-px rounded-full container bg-white"></div>
                     </div>
 
-                    <div className="bg-pink h-full md:h-9/10 rounded-b-full border border-pink p-0.5 flex flex-col items-center justify-end">
+                    <div className="bg-pink h-full lg:h-9/10  rounded-full lg:rounded-b-full border border-pink p-0.5 flex flex-col items-center justify-end">
                         <img
                             src={data.image.url}
                             alt={data.image.alt}
-                            className="w-full h-11/12 object-cover rounded-b-full mix-blend"
+                            className="w-full h-full lg:h-11/12 object-cover rounded-full lg:rounded-b-full mix-blend"
                         />
                     </div>
                     <div className="flex flex-col justify-normal p-6 text-white gap-6 w-full h-full">

@@ -14,8 +14,8 @@ export const Education = ({ data }: Education) => {
     return (
         <section id="education" className="bg-background">
             <div className="section-container">
-                <div className="grid grid-cols-3 gap-6 w-full h-full items-center justify-center">
-                    <div className="text-primary-dark h-full font-display font-semibold tracking-wider border-r-2 border-border">
+                <div className="grid lg:grid-cols-3 gap-6 w-full h-full items-center justify-center">
+                    <div className="text-primary-dark h-full font-display font-semibold tracking-wider lg:border-r-2 border-border">
                         <h2 className="text-7xl">{data.title}</h2>
                         <div className="h-px w-1/3 p-px rounded-full container bg-primary-dark mt-4"></div>
                     </div>

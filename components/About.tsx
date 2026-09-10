@@ -11,11 +11,11 @@ export const About = ({ data }: About) => {
     return (
         <section id="about" className="bg-background">
             <div className="section-container">
-                <div className="grid grid-cols-3 gap-6 w-full h-full items-center justify-center">
-                    <div className="text-primary-dark h-full font-display font-semibold tracking-wider border-r-2 border-border">
+                <div className="grid lg:grid-cols-3 gap-6 w-full h-full items-center justify-center">
+                    <div className="text-primary-dark h-full font-display font-semibold tracking-wider lg:border-r-2 border-border">
                         <h2 className="text-7xl">{data.title}</h2>
                     </div>
-                    <div className="flex flex-col pr-3 gap-4 w-full h-full justify-normal items-start border-r-2 border-border">
+                    <div className="flex flex-col pr-3 gap-4 w-full h-full justify-normal items-start lg:border-r-2 border-border">
                         <h3 className="font-display font-semibold text-4xl tracking-wider">{data.subtitle}</h3>
                         <p className="font-body font-normal text-text-muted">{data.description}</p>
                         <div className="flex flex-row gap-2 w-full items-center justify-normal">
