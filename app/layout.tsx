@@ -5,7 +5,8 @@ import {
   Caveat,
 } from "next/font/google";
 import "./globals.css";
-import {Navbar} from "@/components/Navbar"
+import {Navbar} from "@/components/Navbar";
+import {Footer} from "@/components/Footer";
 
 const bebasNeue = Bebas_Neue({
   variable: "--font-bebas",
@@ -40,7 +41,8 @@ export default function RootLayout({
     >
       <body className="w-full h-full flex flex-col">
         <Navbar/>
-        <main>{children}</main>
+        <main className="flex flex-col w-full overflow-x-hidden min-h-screen">{children}</main>
+        <Footer/>
         </body>
     </html>
   );
