@@ -22,7 +22,7 @@ export const Projects = ({ data }: any) => {
                                     <div className="flex flex-row flex-wrap text-primary justfiy-normal gap-2">
                                       {item.techStack.map((i:any,index:number)=>{
                                         return(
-                                        <span className="border border-peach rounded p-1 font-medium bg-peach/30 text-xs">{i}</span>
+                                        <span key={index} className="border border-peach rounded p-1 font-medium bg-peach/30 text-xs">{i}</span>
                                         )
                                       })}
                                     </div>

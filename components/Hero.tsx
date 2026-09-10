@@ -30,7 +30,7 @@ export const Hero = ({ data }: Heroprop) => {
                         <div className="h-px w-1/5 p-px rounded-full container bg-white"></div>
                     </div>
 
-                    <div className="bg-pink h-full lg:h-9/10  rounded-full lg:rounded-b-full border border-pink p-0.5 flex flex-col items-center justify-end">
+                    <div className="bg-pink h-full lg:h-9/10 rounded-full lg:rounded-none lg:rounded-b-full border border-pink p-0.5 flex flex-col items-center justify-end">
                         <img
                             src={data.image.url}
                             alt={data.image.alt}
