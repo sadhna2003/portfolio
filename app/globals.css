@@ -65,3 +65,7 @@ body {
   color: var(--color-text);
   font-family: var(--font-body);
 }
+
+.section-container {
+  @apply mx-auto container p-6 w-full max-w-6xl
+}

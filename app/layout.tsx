@@ -41,7 +41,7 @@ export default function RootLayout({
     >
       <body className="w-full h-full flex flex-col">
         <Navbar/>
-        <main className="flex flex-col w-full overflow-x-hidden min-h-screen">{children}</main>
+        <main className="flex flex-col w-full overflow-x-hidden">{children}</main>
         <Footer/>
         </body>
     </html>

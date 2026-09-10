@@ -49,7 +49,7 @@ const navItems = [
 
 export const Navbar = () => {
     return (
-        <header className="sticky top-0 z-50 w-full bg-primary">
+        <header className="sticky top-0 z-50 w-full bg-primary border-b border-border">
             <nav className="mx-auto flex w-full max-w-6xl lg:justify-normal jutify-between items-center gap-4 px-6 py-4">
 
                 {/* Logo / Name */}

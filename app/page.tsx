@@ -1,7 +1,10 @@
 import Image from "next/image";
-
+import data from "@/content/data.json";
+import {Hero} from "@/components/Hero";
 export default function Home() {
   return (
-     <section>Hello</section>
+   <>
+   <Hero data = {data.hero}/>
+   </>
   );
 }

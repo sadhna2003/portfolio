@@ -1,0 +1,16 @@
+{
+    "hero": {
+        "highlight": "Frontend & Fullstack",
+        "bottomText": "Build • Solve • Improve",
+        "title": "Sadhna Singh",
+        "description": "I'm a Full Stack Developer with 3+ years of experience building scalable, responsive, and user-focused web applications using the MERN stack. I specialize in React, Next.js, Node.js, Express.js, and TypeScript, with hands-on experience in REST APIs, database design, authentication, and third-party integrations. I focus on writing clean, maintainable code and building reliable solutions that deliver a seamless user experience.",
+        "image": {
+            "url": "/img/profile-img.png",
+            "alt": "hero image"
+        },
+        "cta": {
+            "link": "#contact",
+            "text": "Let's Connect"
+        }
+    }
+}
